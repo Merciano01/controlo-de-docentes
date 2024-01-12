@@ -1,4 +1,4 @@
-abstract class Funcionario {
+abstract class Funcionario extends Funcionario{
     private String nome;
     private String endereco;
     private String telefone;
@@ -34,7 +34,7 @@ abstract class Funcionario {
 
     public void calculaGanho(){
         //Calcula o ganho anual do funcionario
-        System.out.println("Ganhos anual: "+getSalario()*12);
+        System.out.println("Ganho anual: "+getSalario()*12);
     }
     public void bonifica(int percentagem){
         float percentagem_ = (float) percentagem /100;
