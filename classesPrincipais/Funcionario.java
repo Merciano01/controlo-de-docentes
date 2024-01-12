@@ -1,4 +1,4 @@
-abstract class Funcionario extends Funcionario{
+abstract class Funcionario {
     private String nome;
     private String endereco;
     private String telefone;
