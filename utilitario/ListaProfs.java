@@ -12,16 +12,20 @@ public class ListaProfs {
 
     public String singularSearch(Professor prof){
         if(list.contains(prof)){
-            return prof.getNome();
+            return prof.toString();
         }
         return null;
     }
 
     public String showAll(){
         for (Professor professor : list) {
-            return professor.getNome();
+            return professor.toString();
         }
         return null;
+    }
+
+    public void remove(Professor professor){
+        list.remove(professor);
     }
 
 }
