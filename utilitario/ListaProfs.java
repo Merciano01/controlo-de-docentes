@@ -17,11 +17,10 @@ public class ListaProfs {
         return null;
     }
 
-    public String showAll(){
+    public void showAll(){
         for (Professor professor : list) {
-            return professor.toString();
+            System.out.println(professor.toString());
         }
-        return null;
     }
 
     public void remove(Professor professor){

@@ -59,7 +59,9 @@ public class Main{
         cursos.addCurso(curso3);
         cursos.addCurso(curso4);
 
-        professores.singularSearch(professor);
+        System.out.println(professores.singularSearch(professor));
+        //listagem de professores
+        professores.showAll();
         cursos.dadosDoCurso(curso2);
     }
 }
